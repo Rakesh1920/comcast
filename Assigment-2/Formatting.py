@@ -1,0 +1,10 @@
+
+print("="*50)
+print("{header:45}{price}".format(header='Item',price='Price'))
+print("="*50)
+print("{header:40}{num:10.2f}".format(header='Apples',num=0.40))
+print("{header:40}{num:10.2f}".format(header='Pears',num=0.50))
+print("{header:40}{num:10.2f}".format(header='cantaloupes',num=1.90))
+print("{header}{text:26}{num:10.2f}".format(header="Dried Apricots",text="(16 oz.)",num=8.00))
+print("{header}{text:35}{num:10.2f}".format(header="prunes",text="(4 lbs.)",num=12.00))
+print("="*50)
